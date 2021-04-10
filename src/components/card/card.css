@@ -1,0 +1,114 @@
+.card{
+    height: 430px;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0px 15px 25px -4px rgba(30, 30, 60, 0.07);
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    padding: inherit;
+    margin: 20px;
+    transition: all 0.3s;
+}
+.card:hover{
+    box-shadow: 0px 15px 25px -4px rgba(30, 30, 60, 0.12);
+    /* box-shadow: 22px 22px 4px -20px rgb(145, 198, 233); */
+}
+.rowCard{
+    justify-content: center;
+}
+
+.cardImge{
+    height: 250px !important;
+    border-radius: 5px 5px 0px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cardDatos{
+    padding: 15px;
+    border: 1px solid #f5f5f5;
+    border-radius: 0px 0px 5px 5px;
+}
+.titulo h5{
+   color: #4c3d5d;
+}
+.datos{
+    display: flex;
+}
+.datos p{
+    margin-right: 5px;
+    color: #4c3d5d;
+}
+#ciudad{
+    font-weight: 500;
+}
+.datoIcons{
+    display: flex;
+    color: #837d8a;
+}
+.datoIcons div{
+    margin-right: 25px;
+    text-align: center;
+    display: grid;
+}
+.datoIcons svg{
+    font-size: 35px;
+    margin-right: 5px;
+}
+.botones button{
+    height: 40px;
+    width: 120px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.consulta{
+    background: #3277de;
+    color: white;
+    border: none;
+}
+.consulta:hover{
+    background: #6298e9;
+    
+}
+.detalle{
+    background: white;
+    border: 2px solid #3277de;
+    color: #3277de;
+    font-weight: 500;
+}
+.detalle:hover{
+    background: #f0f0f0b4;
+}
+.btnAdminCard button{
+    width: 35px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: none;
+}
+.btnAdminCard svg{
+    width: 20px;
+}
+.delete{
+    color: #F00000;
+}
+.edit{
+    color: #0cc4ba;
+}
+@media (min-width: 768px) {
+    .card{
+        width: 400px;
+    }
+    .datoIcons div{
+        display: block;
+    }
+    .rowCard{
+        justify-content: start;
+    }
+    .botones{
+        display: flex;
+    }
+}
+

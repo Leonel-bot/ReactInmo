@@ -1,0 +1,106 @@
+.dataShow{
+    font-family: 'Rubik', sans-serif;
+    /* border: 1px solid rgb(219, 219, 219); */
+    min-height: 400px;
+    margin: 20px 10px;
+    color: #4c3d5d;
+}
+
+.postTitle{
+    color: #4c3d5d;
+    font-weight: 700;
+    font-size: 20px;
+}
+.postLocation{
+    color: #4c3d5d;
+    
+}
+.postLocation p{
+    font-size: 18px;
+    font-weight: 400;
+}
+#postCiudad{
+    font-weight: 700;
+}
+.postStreet{
+    display: flex;
+}
+.postStreet p{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 17px
+}
+.postIcons{
+    display: flex;
+    color: #837d8a;
+}
+.postIcons div{
+    margin-right: 25px;
+}
+.postIcons svg{
+    font-size: 35px;
+    margin-right: 5px;
+}
+.postDescription{
+    margin-top: 20px;
+    text-align: inherit;
+}
+.postBtn button{
+    height: 55px;
+    width: 150px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 5px;
+    background: #3277de;
+    color: white;
+    border: none;
+    font-size: 16px;
+    transition: all 0.3s;
+    box-shadow: 0px 15px 25px -11px rgba(30,30,60,0.25);
+}
+.postBtn button:hover{
+    background: #6298e9;
+}
+.postBtn img{
+    width: 50px;
+    margin-left: 30px;
+    box-shadow: 0px 15px 25px -11px rgba(30,30,60,0.25);
+    border-radius: 50%;
+}
+
+
+@media (min-width: 768px) {
+    .dataShow{
+        height: 500px;
+    }
+    .postTitle{
+        font-size: 23px;
+    }
+    .postLocation{
+        display: flex;   
+    }
+    .postLocation p{
+        font-size: 18px;
+    }
+    #postCiudad{
+        margin-left: 10px;
+    }
+    .postIcons{
+        margin-top: 20px;
+    }
+    .postIcons div{
+        display: grid;
+        text-align: center;
+    }
+    .postIcons svg{
+        font-size: 40px;
+        margin-right: 5px;
+    }
+    .postDescription{
+        font-size: 17px;
+    }
+    @media (min-width: 992px) {
+        .postTitle{
+            font-size: 25px;
+        }
+    }
+}

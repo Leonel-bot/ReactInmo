@@ -1,0 +1,6 @@
+.App button, input{
+  outline: none;
+}
+body{
+  background: radial-gradient(#cdd0ff 1px,transparent 0),radial-gradient(#cdd0ff 1px,#fefefe 0);
+}

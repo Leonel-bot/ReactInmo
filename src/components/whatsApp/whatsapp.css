@@ -1,0 +1,14 @@
+.WhatsAppIcon{
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    margin: 30px;
+}
+.WhatsAppIcon img{
+    width: 40px;
+}
+@media (min-width: 768px) {
+    .WhatsAppIcon img{
+        width: 50px;
+    }
+}

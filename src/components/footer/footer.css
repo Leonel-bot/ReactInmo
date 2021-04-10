@@ -1,0 +1,60 @@
+.footer{
+    margin-top: 150px;
+    background-color:#1b171f;
+    padding: 20px 0px;
+    color: white;
+    justify-content: space-around;
+    box-shadow: 0px -7px 26px -8px rgba(30,30,60,0.25);
+}
+.footer p{
+    width: 200px;
+    margin-left: 20px;
+    /* border-bottom: 1px solid white; */
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.footer li{
+    list-style: none;
+    margin: 20px 0px;
+    
+}
+.contactFooter, .redesFooter,.logoFooter{
+    margin-bottom: 30px;
+}
+.contactFooter img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.redesFooter img{
+    width: 30px;
+    margin: 0px 10px;
+}
+.redesFooter ul{
+    display: flex;
+}
+.redesContact button{
+    height: 40px;
+    width: 120px;
+    margin: 10px 10px 10px 40px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+.logoFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoFooter img{
+    width: 250px;
+}
+
+@media (min-width: 992px) {
+    .footer{
+        justify-content: center;
+    }
+}

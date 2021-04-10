@@ -1,0 +1,41 @@
+.carousel{
+    border: 1px solid rgb(228, 228, 228);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
+    display: flex;
+    margin: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px -11px rgba(30,30,60,0.25);
+    transition: all 0.3;
+}
+.btnCarousel{
+    margin: 10px;
+}
+.btnCarousel button{
+    height: 50px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: #1b171f;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: 0px 8px 16px -6px rgba(30, 30, 60, 0.22);
+    
+}
+.btnCarousel button:active{
+    background-color: #333035;
+}
+@media (min-width: 768px) {
+    .carousel{
+        height: 500px;
+    }
+}
+@media (min-width: 992px) {
+    .carousel{
+        height: 550px;
+    }
+}

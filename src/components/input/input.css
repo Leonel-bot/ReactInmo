@@ -1,0 +1,129 @@
+.input,.select select,.texarea textarea{
+    box-shadow: 0px 11px 25px -17px #1e1e3c40;
+    border: 1px solid #1e1e3ca2;
+}
+
+.input{
+    height: 55px;
+    border-radius: 4px;
+    padding: 0px 5px 0px 5px;
+    margin: 27px 0px;
+    background: white;
+}
+.input label{
+    position: absolute;
+    color:  #1e1e3c;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 0px 0px 0px 10px;
+    transition: all .2s;  
+
+}
+.input input{
+    height: 30px;
+    width: 100%;
+    background: transparent;
+    margin-top: 18px;
+    margin-left: 5px;
+    border: none;
+    transition: all .2s;
+    cursor: pointer;
+}
+.select{
+    height: 100%;
+    /* width: 200px; */
+    margin: 10px;
+    border-radius: 4px;
+    text-align: initial;
+    transition: all .2s;
+}
+.select label{
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all .2s;
+}
+
+.select select{
+    width: 95%;
+    height: 100%;
+    border-radius: 4px;
+    padding-left:15px;
+    color:  #1e1e3c;
+    background: white;
+    font-size: 15px; 
+    height: 55px;
+}
+.divLabel{
+    height: 35px;
+    overflow: hidden;
+}
+
+
+.checkbox{
+    height: 80px;
+    width: 150px;
+}
+.labelCheck{
+  height: 30px;
+}
+.checkbox label{
+    overflow: hidden;
+    transition: all .2s;
+    font-size: 16px;
+}
+.checkbox input{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+
+
+
+.texarea{
+    height: 270px;
+}
+.label{
+    display: flex;
+    margin-left: 10px;
+    height: 50px;
+    width: 100%;
+}
+.label label{
+    overflow: hidden;
+    transition: all .2s;
+    font-size: 20px;
+    color:  #1e1e3c;
+}
+.texarea textarea{
+    width: 100%;
+    height: 220px;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.divFiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divFiles label{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: steelblue;
+    font-size: 22px;
+    color: white;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 11px 25px -17px #1e1e3c40;
+}
+.divFiles input{
+    display: none;
+}
+.divFiles progress{
+    width: 300px;
+}

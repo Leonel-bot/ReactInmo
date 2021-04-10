@@ -1,0 +1,23 @@
+.cardBanner{
+    font-family: 'Rubik', sans-serif;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(245, 245, 245);
+    box-shadow: 0px 1px 17px -9px rgba(30, 30, 60, 0.22);
+    border-radius: 10px;
+    margin: 30px 10px 0px 10px;
+    text-align: center;
+    padding: 10px;
+}
+.cardBanner img{
+    padding: 5px;
+    width: 70px;
+}
+.cardBanner p{
+    color: #4c3d5d;
+}
+@media (min-width: 992px) {
+    .cardBanner{
+        width: 250px;
+    }
+}

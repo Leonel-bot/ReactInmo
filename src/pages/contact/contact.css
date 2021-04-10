@@ -1,0 +1,17 @@
+.textContact{
+    margin-top: 50px;
+    height: 200px;
+    font-family: 'Rubik', sans-serif;
+}
+.formContact{
+    margin-top: 20px;
+}
+.textContact h4{
+    color: #4c3d5d;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.textContact p{
+    color: #4c3d5de6;
+}

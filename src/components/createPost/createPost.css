@@ -1,0 +1,47 @@
+.formAdmin{
+    margin-top: 40px;
+    padding: 20px 30px;
+    background-color: #fbfbfb;
+}
+.fila{
+    margin-bottom: 10px;
+}
+.files{
+    padding: 10px;
+}
+.files label{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.files label:active{
+    background: #196b80;
+}
+.files input{
+    display: none;
+}
+.btnCarga{
+    display: flex;
+    justify-content: center;
+}
+.btnCarga button{
+    height: 60px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #D31027; 
+    background: -webkit-linear-gradient(to right, #EA384D, #D31027);
+    background: linear-gradient(to right, #EA384D, #D31027);
+    color: white;
+    margin: 20px;
+}

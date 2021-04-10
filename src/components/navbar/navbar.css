@@ -1,0 +1,57 @@
+.navBar{
+    transition: all 0.1s;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    box-shadow: 0px 8px 25px -24px rgba(30,30,60,0.25);
+}
+.divNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon img{
+    padding: 5px;
+    width: 60px;
+}
+.listDesplegable{
+    transition: all 0.1s;
+}
+.listDesplegable li{
+    list-style-type: none;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.listDesplegable li a:active{
+    color: #990101;
+}
+.listDesplegable li a{
+    color: #F00000;
+    text-decoration: none;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.listNav{
+    display: none;
+}
+
+@media (min-width: 992px){
+    .navBar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .menuIcon   {
+        display: none;
+    }
+    .listDesplegable{
+        visibility: initial;
+    }
+    .listDesplegable ul{
+        display: flex;
+    }
+    .listDesplegable li{
+        margin-left: 15px;
+    }
+}

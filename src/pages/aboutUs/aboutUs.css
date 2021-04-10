@@ -1,0 +1,35 @@
+.aboutUs{
+    display: flex;
+    justify-content: center;
+}
+.imgAbout{
+    margin-top: 50px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 0px 15px 25px -11px rgba(30,30,60,0.25);
+}
+
+.textAbout{
+    margin-top: 50px;
+    height: 500px;
+    font-family: 'Rubik', sans-serif;
+}
+.textAbout h4{
+    color: #4c3d5d;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.textAbout p{
+    color: #4c3d5de6;
+}
+
+@media (min-width: 992px) {
+    .textAbout{
+        padding-left: 30px;
+    }
+
+}
