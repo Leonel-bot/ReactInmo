@@ -11,6 +11,7 @@ export default function Auth() {
     const [message, setMessage] = useState()
 
     const login = (ev) => {
+        ev.preventDefault()
         auth.signInWithEmailAndPassword(email, pass)
         .then((user) => {
             console.log(user);
