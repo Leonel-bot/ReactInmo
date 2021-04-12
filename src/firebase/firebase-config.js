@@ -2,7 +2,7 @@ import firebase from 'firebase'
 import 'firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: process.env.REACT_API_KEY ,
+    apiKey: process.env.REACT_APP_API_KEY ,
     authDomain: "react-inmo.firebaseapp.com",
     projectId: "react-inmo",
     storageBucket: "react-inmo.appspot.com",
