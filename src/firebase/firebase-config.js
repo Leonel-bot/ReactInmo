@@ -1,10 +1,17 @@
 import firebase from 'firebase'
 import 'firebase/firestore'
 
-//const firebaseConfig = JSON.parse(process.env.REACT_APP_FIREBASE_CONFIG)
+const firebaseConfig = {
+    apiKey: process.env.REACT_API_KEY ,
+    authDomain: "react-inmo.firebaseapp.com",
+    projectId: "react-inmo",
+    storageBucket: "react-inmo.appspot.com",
+    messagingSenderId: "140028720241",
+    appId: process.env.REACT_APP_ID ,
+    measurementId: "G-BPD1J5GPZX"
+};
 
-firebase.initializeApp(process.env.REACT_APP_FIREBASE_CONFIG);
-//firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 
 
